@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rakesh.checkbox.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Language You know"
+        android:layout_margin="30dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"/>
+    <CheckBox
+        android:id="@+id/cbpython"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Python"
+        android:textSize="15dp"
+        android:layout_marginLeft="30dp"/>
+    <CheckBox
+        android:id="@+id/cbcpp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C++"
+        android:textSize="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+    <CheckBox
+        android:id="@+id/cbjava"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Java"
+        android:textSize="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+    <CheckBox
+        android:id="@+id/cbswift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Swift"
+        android:textSize="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:onClick="process"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_margin="30dp"/>
+    <TextView
+        android:id="@+id/tvresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result:"
+        android:layout_marginLeft="30dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#075003"/>
+
+
+</LinearLayout>
